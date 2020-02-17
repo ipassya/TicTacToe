@@ -67,12 +67,10 @@ public class Main {
 
             result = winner.checkWinner(playerPositions, cpuPositions);
             if (result.length() > 0) {
-                board.printGameBoard(gameBoard);
                 System.out.println(result);
                 break;
             }
             System.out.println(result);
         }
     }
-
 }
